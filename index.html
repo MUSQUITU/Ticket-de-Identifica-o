@@ -25,15 +25,15 @@
           
         </span>
         
-        <img src="images/perfil.jpeg" alt="Selo" height="180px">
+        <img id="imgGitHub" src="images/perfil.jpeg" alt="Selo" height="180px">
   
       </div>
-     <h1 id="userName">Camila Teixeira</h1>
-      <a href="https://github.com/MUSQUITU" target="_blank">
+     <h1 id="userName">Camila </h1>
+      <a id="userGitHub" href="https://github.com/" target="_blank">
         <img src="images/icon-github.png" alt="icone github" height="24px">
       MUSQUITU</a>
 
-      <p>Estudante de ciência da computação,<br> focada em programação web</p>
+      <p id="bio">Estudante de ciência da computação,<br> focada em programação web</p>
 
       <ul id="socialLinks">
         <li class="instagram">
@@ -60,28 +60,7 @@
     </div>
 
   </main>
-  <script>
 
-    const linksSocilMidia = {
-      github: "MUSQUITU",
-      instagram: "camis.js",
-      twitter: "CamilaComCafe",
-      linkedin:"camila-almeida-teixeira",
-      facebook: "camilaalmeida.teixeira.1"
-    }
-
-    function changeSocialMidia () {
-      for(let li of socialLinks.children){
-        const social = li.getAttribute('class') // * recebendo os atributos de class
-       
-        li.children[0].href = `https://${social}.com/${linksSocilMidia[social]}`
-        
-      }
-    }
-
-    changeSocialMidia()
-
-
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>
