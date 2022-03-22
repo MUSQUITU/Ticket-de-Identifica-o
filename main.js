@@ -2,7 +2,7 @@ const linksSocilMidia = {
   github: "MUSQUITU",
   instagram: "camis.js",
   twitter: "CamilaComCafe",
-  linkedin:"camila-almeida-teixeira",
+  linkedin:"in/camila-almeida-teixeira",
   facebook: "camilaalmeida.teixeira.1"
 }
 
@@ -27,6 +27,7 @@ function getGitHubProfileInfos () {
     bio.textContent = data.bio
     userGitHub.href = data.html_url
     imgGitHub.src = data.avatar_url
+
   })
 }
 

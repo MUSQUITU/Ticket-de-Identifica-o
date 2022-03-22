@@ -19,10 +19,10 @@ body {
 }
 
 main {
-  background: url(images/background.png);
-  width: 375px;
-  height: 812px;
-  background-position: initial;
+  background: url(images/background.png) no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+  min-width: 812px;
   
   
 }
